@@ -32,7 +32,7 @@ HF has deprecated the built-in Streamlit SDK, so this repo ships a `Dockerfile`.
 python -m pytest -q tests          # deterministic checks (citation checker, triage, drafts) — no key needed
 python run_eval.py                 # runs tests/test_cases.json through the real model, saves raw outputs to outputs/
 ```
-Then read `outputs/` and fill in `RUBRIC.md` yourself.
+Then read `outputs/` and filled in `RUBRIC.md` myself.
 
 ## Files
 | File | What it is |
