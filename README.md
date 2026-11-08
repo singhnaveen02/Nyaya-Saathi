@@ -45,8 +45,8 @@ Then read `outputs/` and fill in `RUBRIC.md` yourself.
 | `core/drafts.py` | deterministic notice templates with `[PLACEHOLDERS]` |
 | `core/agent.py` | triage rules + pipeline functions (shared by app and eval) |
 | `Dockerfile` | container for HF Spaces |
-| `DESIGN.md` | Step 1 design |
-| `SOLUTION_DOC.md` | Step 4 2-page doc (with placeholders for your results) |
+| `DESIGN.md` | design |
+| `SOLUTION_DOC.md` | page doc |
 
 ## Key decisions
 - **Templates write the notice, not the LLM** → no invented facts or sections in the document.
